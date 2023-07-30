@@ -1,89 +1,91 @@
-[
-    {
-        "id": 1,
-        "name": "Wendingo",
-        "bio": 
-        "abilities":
-        "weakness":
-        "category": 
-    },
-    {   
-        "id": 2,
-        "name": "Blood Mary",
-        "bio":
-        "abilities":
-        "weakness":
-        "category": "urban legened"
-    },
-    {   
-        "id": 3,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+{  "supernaturalCreatures": [
+        {
+            "id": 1,
+            "name": "Wendingo",
+            "lore": "They were once human but the need for survival forced them to eat human flesh. Beoming monsters, retaining very little human features. They crave human flesh and represent greed, gluttony, and excess. Never being satisfied and always going for more",
+            "abilities": ["super strength", "Super speed", "voice mimicking"],
+            "weakness": ["fire", "silver", "Anasazi Symbols"]
+            "appearance": "Season 1, Episode 7",
+            "category": "monsters"
+        },
+        {   
+            "id": 2,
+            "name": "Woman in White",
+            "lore": " Ghosts of deceased women, in white dresses. While alive, they faced some sort of issue with their husbands that resulted in depression and they subsequently unalived themselves and their children. As a result they spend eternity, wandering along roads, searching for their children, and seeking vengence against cheating men who come across their path.",
+            "abilities": ["eletronic manipulation", " shapeshifting", "telekensis" ],
+            "weakness": ["ghosts of her children", "salt", "iron"],
+            "appearance": " Season 1, Episodes 14-15",
+            "category": "urban legened"
+        },
+        {   
+            "id": 3,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+        },
 
-    {   
-        "id": 4,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    }, 
+        {   
+            "id": 4,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        }, 
 
-    {   
-        "id": 5,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+        {   
+            "id": 5,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        },
 
-    {   
-        "id": 6,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+        {   
+            "id": 6,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        },
 
-    {   
-        "id": 7,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+        {   
+            "id": 7,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        },
 
-    {   
-        "id": 8,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+        {   
+            "id": 8,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        },
 
-    {   
-        "id": 9,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    },
+        {   
+            "id": 9,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        },
 
-    {   
-        "id": 10,
-        "name": ,
-        "bio":
-        "abilities":
-        "weakness"
-        "category":
-    }
-]
+        {   
+            "id": 10,
+            "name": ,
+            "lore":
+            "abilities":
+            "weakness"
+            "category":
+        }
+    ]
+}
