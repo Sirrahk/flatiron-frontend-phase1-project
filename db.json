@@ -1,0 +1,89 @@
+[
+    {
+        "id": 1,
+        "name": "Wendingo",
+        "bio": 
+        "abilities":
+        "weakness":
+        "category": 
+    },
+    {   
+        "id": 2,
+        "name": "Blood Mary",
+        "bio":
+        "abilities":
+        "weakness":
+        "category": "urban legened"
+    },
+    {   
+        "id": 3,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 4,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    }, 
+
+    {   
+        "id": 5,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 6,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 7,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 8,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 9,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    },
+
+    {   
+        "id": 10,
+        "name": ,
+        "bio":
+        "abilities":
+        "weakness"
+        "category":
+    }
+]

@@ -2,3 +2,12 @@ body {
     background-color: #bbb383;
     font-family: 'Handlee', 'cursive';
 }
+
+#textarea {
+    display:flex;
+}
+
+#scrollarea {
+    background-color: red;
+    flex-direction:column;
+}
