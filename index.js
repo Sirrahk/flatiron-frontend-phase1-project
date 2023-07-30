@@ -30,16 +30,16 @@ const displayMonster = () => {
 };
 
 const monsterEvent=() => {
-    const input = document.getElementsByClassName('.monsters')
+    const input = document.getElementsByClassName(button)
     input.addEventListener('click', displayMonster)
 }
 
 const demonsEvent = () => {
-    const demonInput =  document.getElementsByClassName('.demons')
+    const demonInput =  document.getElementsByClassName('demons')
     demonInput.addEventListener('click', demonsName)
 }
 
 const scrollScreen = () => { 
+    scrollBar = document.getElementsById('scrollarea')
 
 }
-//Form submission
