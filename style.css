@@ -2,12 +2,22 @@ body {
     background-color: #bbb383;
     font-family: 'Handlee', 'cursive';
 }
+.maincontainer {
+    display: flex;
+}
+
+nav {
+    background-color: brown;
+}
+section {
+    display: flex;
+  
+}
 
 #textarea {
-    display:flex;
+    flex-direction: column;
 }
 
 #scrollarea {
     background-color: red;
-    flex-direction:column;
 }
