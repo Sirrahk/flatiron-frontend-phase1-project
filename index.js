@@ -1,9 +1,4 @@
-console.log("Hello World")
 
-
-//Event listener for monster button
-//Event listener for urban legends button
-//Event listener for demons button
 
 const monsterName = () => {
     alert("yay you clicked me")
@@ -17,7 +12,7 @@ const urbanLegends = ()=> {
 
 }
 
-const demonsName = () => {
+const biblicalCreatures = () => {
     alert("yay you clicked me")
 }
 
@@ -25,21 +20,24 @@ const demonsName = () => {
 const displayMonster = () => {
     monsterName();
     urbanLegends();
-    demonsName();
+    biblicalCreatures();
     //Will display monster on screen
 };
 
-const monsterEvent=() => {
-    const input = document.getElementsByClassName(button)
-    input.addEventListener('click', displayMonster)
+function monsterEvent(){
+    const monsterInput = document.getElementsByClassName('monsters')
+    monsterInput.addEventListener('click', displayMonster)
 }
 
-const demonsEvent = () => {
-    const demonInput =  document.getElementsByClassName('demons')
-    demonInput.addEventListener('click', demonsName)
+function biblicalEvent(){
+    const biblicalInput = document.getElementsByClassName('biblical');
+    biblicalInput.addEventListener('click', biblicalCreatures);
 }
 
-const scrollScreen = () => { 
+function ubranLegendsEvent() {
+
+}
+function scrollScreen(){ 
     scrollBar = document.getElementsById('scrollarea')
 
 }
