@@ -6,7 +6,7 @@
             "abilities": "super strength, Super speed, voice mimicking",
             "weakness": "fire, silver, Anasazi Symbols",
             "appearance": "Season 1, Episode 7",
-            "category": "monsters"
+            "category": "urban legend"
         },
         {   
             "id": 2,
@@ -21,71 +21,41 @@
             "id": 3,
             "name": "Banshee",
             "lore": "Creatures associated withGaelic/Irish folklore associated with impending death. The malevolent version preys upon the vulnerable. Using their high-pitched schreech to dirve humans insane to the point of unaliving themselves at which point they feed on said unalived human.  ",
-            "abilities": "",
-            "weakness": " "
+            "abilities": "sonic scream, camouflage, invulnerability, flight",
+            "weakness": "weapon of pure gold, banshee banishing spell, celtic blood trapping spell ",
+            "appearance": " Season 11, Episode 11",
+            "category": "monster"
         },
 
         {   
             "id": 4,
-            "name": "",
-            "lore":"",
-            "abilities":"",
-            "weakness": "",
-            "category":""
+            "name": "Rakshasas",
+            "lore":"They come from Hindu mythology and their claim to fame is...you guessed it...eating human flesh! Be aware as these creatures can shapeshift to disgusie themselves as humans. However they cannot enter a house without first being invited in",
+            "abilities":"shapeshifting, invisibility, super senses, invisibility",
+            "weakness": "brass, invitation",
+            "appearance": "",
+            "category":"monster"
         }, 
 
         {   
             "id": 5,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
+            "name": "Blood Mary (Mary Worthington)",
+            "lore": "This is the shows take on blood mary. Mary Worthington was murdered at 19 and her spirit lingered on and lived in the mirror she was unalived in front of. Her victims are those that utter Blood Mary three times in the mirror, taking their eyes as was done to her",
+            "abilities": "biokenesis, possession, teleportation, mind reading",
+            "weakness": "salt, mirrors",
+            "appearance": "Season 1, Episode 5",
+            "category": "urban legened"
         },
 
         {   
             "id": 6,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
-        },
+            "name": "Wraith" ,
+            "lore": "They utilize a spike located at their wrist to access a weakpoint behind their victims ears to feed on the brain juice and can infect their victims with high doese of dopamine ",
+            "abilities": "insanity inducement, spikes, super agility, regeneration",
+            "weakness": "silver, mirrors, spike breaking, trauma to the head, explosions",
+            "appearance": " Season 5, Episode 11. Season 14, Episode 19",
+            "category":"monster"
 
-        {   
-            "id": 7,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
-        },
-
-        {   
-            "id": 8,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
-        },
-
-        {   
-            "id": 9,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
-        },
-
-        {   
-            "id": 10,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
         }
     ]
 }
