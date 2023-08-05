@@ -12,31 +12,24 @@ const urbanLegends = ()=> {
 
 }
 
-const biblicalCreatures = () => {
-    alert("yay you clicked me")
-}
 
 
 const displayMonster = () => {
     monsterName();
     urbanLegends();
-    biblicalCreatures();
     //Will display monster on screen
 };
 
 function monsterEvent(){
     const monsterInput = document.getElementsByClassName('monsters')
-    monsterInput.addEventListener('click', displayMonster)
+    monsterInput.addEventListener('click', monsterName)
 }
 
-function biblicalEvent(){
-    const biblicalInput = document.getElementsByClassName('biblical');
-    biblicalInput.addEventListener('click', biblicalCreatures);
+function ubranLegendsEvent(){
+    const urbanLegengsInput = document.getElementsByClassName('urbanlegends');
+    urbanLegengsInput.addEventListener('click', displayMonsters);
 }
 
-function ubranLegendsEvent() {
-
-}
 function scrollScreen(){ 
     scrollBar = document.getElementsById('scrollarea')
 
