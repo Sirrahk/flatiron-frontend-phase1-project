@@ -3,8 +3,8 @@
             "id": 1,
             "name": "Wendingo",
             "lore": "They were once human but the need for survival forced them to eat human flesh. Beoming monsters, retaining very little human features. They crave human flesh and represent greed, gluttony, and excess. Never being satisfied and always going for more",
-            "abilities": ["super strength", "Super speed", "voice mimicking"],
-            "weakness": ["fire", "silver", "Anasazi Symbols"]
+            "abilities": "super strength, Super speed, voice mimicking",
+            "weakness": "fire, silver, Anasazi Symbols",
             "appearance": "Season 1, Episode 7",
             "category": "monsters"
         },
@@ -12,26 +12,26 @@
             "id": 2,
             "name": "Woman in White",
             "lore": " Ghosts of deceased women, in white dresses. While alive, they faced some sort of issue with their husbands that resulted in depression and they subsequently unalived themselves and their children. As a result they spend eternity, wandering along roads, searching for their children, and seeking vengence against cheating men who come across their path.",
-            "abilities": ["eletronic manipulation", " shapeshifting", "telekensis" ],
-            "weakness": ["ghosts of her children", "salt", "iron"],
+            "abilities": "eletronic manipulation,shapeshifting, telekensis",
+            "weakness": "ghosts of her children, salt, iron",
             "appearance": " Season 1, Episodes 14-15",
             "category": "urban legened"
         },
         {   
             "id": 3,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
+            "name": "Banshee",
+            "lore": "Creatures associated withGaelic/Irish folklore associated with impending death. The malevolent version preys upon the vulnerable. Using their high-pitched schreech to dirve humans insane to the point of unaliving themselves at which point they feed on said unalived human.  ",
+            "abilities": "",
+            "weakness": " "
         },
 
         {   
             "id": 4,
-            "name": ,
-            "lore":
-            "abilities":
-            "weakness"
-            "category":
+            "name": "",
+            "lore":"",
+            "abilities":"",
+            "weakness": "",
+            "category":""
         }, 
 
         {   
