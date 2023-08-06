@@ -1,26 +1,31 @@
 body {
-    background-color: #bbb383;
+    background: url(image/pawel-czerwinski-F-BBfrbAkQQ-unsplash.jpg);
     font-family: 'Handlee', 'cursive';
-    top: 20px;
+    font-weight: 700;
+
 }
 
 header {
     text-align: center;
-}
-.maincontainer {
-   border: 2px dashed #9d5f29;
+    color: brown;
 }
 
+
 section {
-    display: flex;
+    border: 2px dashed #9d5f29;
+    padding-bottom: 5px;
   
 }
 
-#textarea {
-    flex-direction: column;
-    order: 2;
+.buttonscontainer{
+    background-color: tan;
+    color: black;
+    border: 5px dashed black
+    
 }
 
-#scrollarea {
-    background-color: red;
+#textarea {
+    flex-direction: row;
+    order: 1;
 }
+
