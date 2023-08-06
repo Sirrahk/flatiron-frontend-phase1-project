@@ -16,10 +16,9 @@ function generateCreatures(){
    .catch()
 }
 
-generateCreatures();
+//displaying monster data 
 function displayAllMonsters(creature){
-    //bracket notation to access data
-    //issue is how to access the array to display all monsters
+
     pCreatureName.innerText = `Creature: ${creature.name}`
     pLore.innerText = `Lore: ${creature.lore}`
     pLore.innerText = `Strengths: ${creature.abilities}`
@@ -30,24 +29,8 @@ function displayAllMonsters(creature){
     
 
 }
-//Generating randomized Monster entries
 
-function generateCreatureOptions(creatures){
-//Need to access the individual properties of the returned array of objects
-    console.log(creatures);
-}
-//Generating randomized urbanLegends entries
-
-
-const generateUrbanLegends = ()=> {
-    //access data to display urban legends
-    alert("yay you clicked me")
-    
-
-}
-
-
-
+//Function for clicking button to display data
 
 function creatureEvent(){
     const monsterInput = document.getElementsByClassName('monsters')
