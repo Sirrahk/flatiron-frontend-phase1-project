@@ -1,12 +1,16 @@
 
 
-const monsterName = () => {
-    alert("yay you clicked me")
-    
+const generateMonsters = () => {
+   fetch('http://localhost:3000/supernaturalCreatures/')
+   .then(function (response) { console.log(response);
+    return response.json();
+   }).then(function (data){ 
+    console.log(data);
+   }) 
 
 }
 
-const urbanLegends = ()=> {
+const generateUrbanLegends = ()=> {
     alert("yay you clicked me")
     
 
