@@ -21,6 +21,11 @@ function displayAllMonsters(creature){
     //bracket notation to access data
     //issue is how to access the array to display all monsters
     pCreatureName.innerText = `Creature: ${creature.name}`
+    pLore.innerText = `Lore: ${creature.lore}`
+    pLore.innerText = `Strengths: ${creature.abilities}`
+    pLore.innerText = `Weaknesses: ${creature.weakness}`
+    pLore.innerText = `Episode Featured: ${creature.appearance}`
+    pLore.innerText = `Category: ${creature.category}`
     
     
 
@@ -43,25 +48,9 @@ const generateUrbanLegends = ()=> {
 
 
 
-const displayMonster = () => {
-    monsterName();
-    urbanLegends();
-    //Will display monster on screen
-};
 
-function monsterEvent(){
+function creatureEvent(){
     const monsterInput = document.getElementsByClassName('monsters')
-    monsterInput.addEventListener('click', displayMonsters)
+    monsterInput.addEventListener('click', generateCreatures)
 }
 
-function ubranLegendsEvent(){
-    const urbanLegengsInput = document.getElementsByClassName('urbanlegends');
-    urbanLegengsInput.addEventListener('click', displayMonsters);
-}
-
-function scrollScreen(){ 
-    let scrollPosition = 0;
-    scrollBar = document.getElementById('scrollarea')
-    scrollbar.addEventListener('scroll', (event) =>{ scrollPosition=window.scrollY})
-
-}
