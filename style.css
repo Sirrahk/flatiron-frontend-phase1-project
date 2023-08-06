@@ -7,25 +7,29 @@ body {
 
 header {
     text-align: center;
-    color: brown;
+    color: #2c1b10;
 }
 
 
 section {
     border: 2px dashed #9d5f29;
     padding-bottom: 5px;
+    
   
 }
 
-.buttonscontainer{
-    background-color: tan;
-    color: black;
-    border: 5px dashed black
+p {
+    text-align: left;
     
 }
 
-#textarea {
-    flex-direction: row;
-    order: 1;
+
+button{
+    background-color: tan;
+    color: black;
+    border: 5px dashed;
+    margin: 50px
+    
 }
+
 
