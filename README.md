@@ -41,6 +41,5 @@ Download json-server following the installation instructions above and run json-
 ##SOURCES:
 INFO USED FOR THIS PROJECT WAS FOUND AT https://supernatural.fandom.com/wiki/Supernatural_Wiki
 BACKGROUND IMAGE COURTSEY OF: Photo by <a href="https://unsplash.com/@pawel_czerwinski?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pawel Czerwinski</a> on <a href="https://unsplash.com/photos/F-BBfrbAkQQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
 
 Should include project name, description, installation instructions, brief description of how to use your app, a Contributor's Guide, and a License (https://www.makeareadme.com/Links to an external site).
