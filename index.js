@@ -1,14 +1,12 @@
 
 
 const generateMonsters = () => {
+    //fetching all the quote data 
    fetch('http://localhost:3000/supernaturalCreatures/')
-   .then(function (response) { console.log(response);
-    return response.json();
-   }).then(function (data){ 
-    console.log(data);
-   }) 
-
+   .then(response => response.json()) 
+   .then(json=>console.log(json))
 }
+
 
 const generateUrbanLegends = ()=> {
     alert("yay you clicked me")
