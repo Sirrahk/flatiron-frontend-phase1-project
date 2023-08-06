@@ -1,7 +1,12 @@
+//Setting variables for use 
+const textArea = document.getElementById("textarea")
+const getMonsterButtonInput = document.getElementById("")
+const getUrbanLegendsButtonInput = document.getElementsByClassName("")
+
 //Function to fetch ALL monster data
 function generateCreatures(){
     //fetching all the quote data 
-   fetch('http://localhost:3000/supernaturalCreatures/')
+   return fetch('http://localhost:3000/supernaturalCreatures/')
    .then(response => response.json()) 
    .then(creatures => console.log(creatures))
     //generateCreatureOptions(creatures.supernaturalCreatures))
@@ -10,10 +15,14 @@ function generateCreatures(){
 
 //Generating randomized Monster entries
 
-/*function generateCreatureOptions(creatures){
-    console.log(creatures.name)
+function generateCreatureOptions(creatures){
+//Need to access the individual properties of the returned array of objects
+    //forEach(?) to loop through the returned creatures data
+    for (const key in creatures){
+        console.log(creature[key])
+    }
+    }
    
-}*/
 //Generating randomized urbanLegends entries
 
 
