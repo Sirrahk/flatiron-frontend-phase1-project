@@ -1,11 +1,13 @@
-//Setting variables for use 
-const textArea = document.getElementById("textarea")
-const getMonsterButtonInput = document.getElementsByClassName("creatures")
-const getUrbanLegendsButtonInput = document.getElementsByClassName("")
-const displayText = document.getElementsByClassName("textarea")
-
-//<p tags>
+// defining elements
+const getMonsterInputButton = document.getElementsByClassName('creaturesbutton')
 const pCreatureName = document.getElementById('creaturename')
+const pLore = document.getElementById('lore')
+const pAbilities = document.getElementById('strengths')
+const pWeaknesses = document.getElementById('weaknesses')
+const pAppearance = document.getElementById('episodefeatured')
+
+
+
 //Function to fetch ALL monster data
 function generateCreatures(){
     //fetching all the quote data 
@@ -16,24 +18,26 @@ function generateCreatures(){
    .catch()
 }
 
+
 //displaying monster data 
 function displayAllMonsters(creature){
-
     pCreatureName.innerText = `Creature: ${creature.name}`
     pLore.innerText = `Lore: ${creature.lore}`
-    pLore.innerText = `Strengths: ${creature.abilities}`
-    pLore.innerText = `Weaknesses: ${creature.weakness}`
-    pLore.innerText = `Episode Featured: ${creature.appearance}`
-    pLore.innerText = `Category: ${creature.category}`
-    
-    
-
+    pAbilities.innerText = `Strengths: ${creature.abilities}`
+    pWeaknesses.innerText = `Weaknesses: ${creature.weakness}`
+    pAppearance.innerText = `Episode: ${creature.appearance}`
+     
 }
 
-//Function for clicking button to display data
+//Function call 
+generateCreatures()
 
+ 
 function creatureEvent(){
-    const monsterInput = document.getElementsByClassName('monsters')
-    monsterInput.addEventListener('click', generateCreatures)
+    document.getElementsByClassName('creaturesbutton').addEventListener('click', generateCreatures)
 }
+
+
+
+
 
